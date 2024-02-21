@@ -17,7 +17,7 @@ services:
     container_name: workspace-db
     build:
       context: .
-      dockerfile: workspace-db
+      dockerfile: Dockerfile-db
     image: mysql:8.0
     hostname: worksapce-mysql
     ports:
