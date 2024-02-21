@@ -1,5 +1,6 @@
-drop database if exists workspace;
-create database if not exists workspace charset utf8mb4;
+DROP DATABASE IF EXISTS workspace;
+CREATE DATABASE IF NOT EXISTS workspace
+CHARSET='utf8mb4';
 
 use workspace;
 
