@@ -8,7 +8,7 @@
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
 		<!-- com.mysql.cj.jdbc.Driver :: MySQL과 연결하는 드라이버. -->
 		<!-- <property name="url" value="jdbc:mysql://127.0.0.1:3306/workspace?useSSL=false&amp;serverTimezone=UTC" /> -->
-		<property name="url" value="jdbc:mysql://DB-workspace:3306/workspace?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true" />
+		<property name="url" value="jdbc:mysql://workspace-db:3306/workspace?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true" />
 		<property name="username" value="root" />
 		<property name="password" value="1111" />
 	</bean>
